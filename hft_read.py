@@ -1,6 +1,6 @@
 
 """
--J , Aug 30 2015, 10:04m
+Aug 30 2015, 10:04m
 
 Schema use python
 Schema 2 uses python 3.4    """
@@ -114,19 +114,6 @@ with open('sample.taq.csv', 'r', newline='') as csvfile:
                 if valid:
                     c.execute("INSERT INTO highFreqTrade VALUES ('" +timeString+"','"+stock+"','"+message+"','"+tradePrice+"', '"+tradeSize+"')")
 
-                    
-        
-            """
-            print ("data row", count,
-                   "time", row[0],
-                   "stock", row[1],
-                   "message", row[2],
-                   "bid_price", row[3],
-                   "ask_price", row[4],
-                   "bid_size", row[5],
-                   "ask_size", row[6])"""
-            
-            # Insert a row of data
 
 
 # Save (commit) the changes
