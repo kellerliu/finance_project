@@ -3,7 +3,7 @@
 Aug 30 2015, 10:04m
 
 Schema use python
-Schema 2 uses python 3.4    """
+Schema 3 uses python 3.4    """
 
 import csv
 import sys
